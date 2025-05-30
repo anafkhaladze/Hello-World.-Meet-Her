@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background: #e7d8ea;
+  background: #f7eff9;
   padding: 20px 20px;
   text-align: center;
 }
@@ -47,4 +47,40 @@ header {
   background-color: #5a0390;
   color: white;
   border-radius: 25px;
+}
+
+section {
+  padding: 20px;
+  max-width: 100%;
+}
+
+.mission {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.mission-text {
+  align-items: center;
+  margin: 100px;
+}
+
+.mission-text h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #8e7cc3;
+  margin: 40px;
+}
+
+.mission-text p{
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif ;
+  color: #333333;
+  line-height: 28px;
+}
+
+.mission-img{
+  border-radius: 15px;
+  height: 500px;
 }
