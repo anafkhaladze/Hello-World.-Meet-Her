@@ -73,14 +73,70 @@ section {
   margin: 40px;
 }
 
-.mission-text p{
+.mission-text p {
   font-size: 18px;
-  font-family: "Open Sans", sans-serif ;
+  font-family: "Open Sans", sans-serif;
   color: #333333;
   line-height: 28px;
 }
 
-.mission-img{
+.mission-img {
   border-radius: 15px;
   height: 500px;
+}
+
+#stories h2 {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #8e7cc3;
+  margin: 40px;
+}
+
+.stories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 420px;
+  height: 530px;
+  border-radius: 15px;
+}
+
+.card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #8e7cc3;
+  margin-top: 20px;
+}
+
+.card p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  line-height: 28px;
+}
+
+.card ul li{
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+}
+
+.card span{
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  line-height: 28px;
 }
