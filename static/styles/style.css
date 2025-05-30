@@ -7,6 +7,7 @@ body {
   background-color: #fdfbff;
 }
 
+/* header */
 header {
   background: #f7eff9;
   padding: 20px 20px;
@@ -49,6 +50,7 @@ header {
   border-radius: 25px;
 }
 
+/* missions-section */
 section {
   padding: 20px;
   max-width: 100%;
@@ -85,6 +87,7 @@ section {
   height: 500px;
 }
 
+/* stories-section */
 #stories h2 {
   font-size: 30px;
   font-weight: bold;
@@ -147,6 +150,7 @@ section {
   line-height: 28px;
 }
 
+/* resources-section */
 #resources h2 {
   margin: 40px;
   font-size: 30px;
@@ -219,6 +223,7 @@ section {
   font-weight: 600;
 }
 
+/* footer */
 footer {
   padding: 30px 20px;
   background-color: #f0eef7;
@@ -257,4 +262,21 @@ footer span {
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+}
+
+/* learn-code */
+.resources-card ul li p{
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  line-height: 20px;
+}
+
+.resources-card ul li span{
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  line-height: 20px;
 }
