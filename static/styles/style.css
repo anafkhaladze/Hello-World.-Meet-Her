@@ -212,9 +212,49 @@ section {
   text-decoration: none;
 }
 
-.resources-card button a:hover{
+.resources-card button a:hover {
   color: white;
   border-radius: 20px;
   font-size: 16px;
   font-weight: 600;
+}
+
+footer {
+  padding: 30px 20px;
+  background-color: #f0eef7;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo img {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+
+.footer-text h5 {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  color: #84319a;
+  margin-right: 40px;
+}
+
+footer p {
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+footer span {
+  text-align: center;
+  color: #666666;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
