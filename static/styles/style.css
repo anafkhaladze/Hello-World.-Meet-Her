@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+
+body {
+  margin: 0;
+  background-color: #fdfbff;
+}
+
+header {
+  background: #e7d8ea;
+  padding: 20px 20px;
+  text-align: center;
+}
+
+.inner-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  display: flex;
+  justify-content: space-around;
+  width: 120px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.cta-buttons a {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+  margin: 5px;
+  color: #84319a;
+  text-decoration: none;
+}
+
+.cta-buttons a:hover {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #5a0390;
+  color: white;
+  border-radius: 25px;
+}
