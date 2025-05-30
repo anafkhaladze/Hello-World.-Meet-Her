@@ -103,17 +103,23 @@ section {
   background: #fff;
   border-radius: 15px;
   padding: 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.196);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 20px rgba(6, 6, 6, 0.317);
 }
 
 .card img {
   width: 420px;
-  height: 530px;
+  height: 550px;
   border-radius: 15px;
 }
 
 .card h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   color: #8e7cc3;
@@ -121,22 +127,94 @@ section {
 }
 
 .card p {
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
   color: #333333;
   line-height: 28px;
 }
 
-.card ul li{
-  font-size: 14px;
+.card ul li {
+  font-size: 12px;
   font-family: "Open Sans", sans-serif;
   color: #333333;
 }
 
-.card span{
+.card span {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   color: #333333;
   line-height: 28px;
+}
+
+#resources h2 {
+  margin: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  color: #8e7cc3;
+}
+
+.resources-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.196);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resources-card:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 20px rgba(6, 6, 6, 0.317);
+}
+
+.resources-card h3 {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #333333;
+  line-height: 28px;
+}
+
+.resources-card p {
+  color: #222222;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.resources-card ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: #c8a2c8;
+}
+
+.resources-card button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #a15dcb;
+  border: none;
+  border-radius: 15px;
+}
+
+.resources-card button:hover {
+  padding: 15px 20px;
+  margin: 10px;
+  background-color: #5a0390;
+}
+
+.resources-card button a {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+}
+
+.resources-card button a:hover{
+  color: white;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 600;
 }
