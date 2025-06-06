@@ -4,6 +4,8 @@
 
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   background-color: #fdfbff;
 }
 
@@ -148,6 +150,25 @@ section {
   font-weight: bold;
   color: #333333;
   line-height: 28px;
+}
+
+.card button {
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #a15dcb;
+  border: none;
+  border-radius: 15px;
+}
+
+.card button:hover {
+  background-color: #5a0390;
+}
+
+.card button a {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
 }
 
 /* resources-section */
