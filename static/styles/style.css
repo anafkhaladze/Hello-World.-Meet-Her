@@ -91,6 +91,15 @@ section {
 }
 
 /* stories-section */
+.main-title {
+  text-align: center;
+  color: #83319ad2;
+  font-size: 45px;
+  font-weight: 700px;
+  margin: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
 #stories h2 {
   font-size: 30px;
   font-weight: bold;
