@@ -20,6 +20,28 @@
             <a href="#">Meet the Women</a>
             <a href="#">Explore Resources</a>
           </div>
+
+          <div class="lang-switcher">
+            <img
+              src="../images/united-kingdom-flag.png"
+              alt="English"
+              class="flag"
+              onclick="setLanguage('en')"
+            />
+            <img
+              src="../images/georgia-flag.png"
+              alt="ქართული"
+              class="flag"
+              onclick="setLanguage('ka')"
+            />
+          </div>
+          <button
+            id="theme-toggle"
+            aria-label="Toggle theme"
+            class="theme-toggle"
+          >
+            <span id="theme-icon">🌙</span>
+          </button>
         </div>
       </div>
     </header>
@@ -90,5 +112,7 @@
         <span>© 2025</span> Hello, World. Meet Her. All rights reserved.👯‍♀️👑💜
       </p>
     </footer>
+    <script src="../script/resource-translations.js"></script>
+    <script src="../script/theme.js"></script>
   </body>
 </html>

@@ -20,6 +20,28 @@
             <a href="#stories">Meet the Women</a>
             <a href="#resources">Explore Resources</a>
           </div>
+
+          <div class="lang-switcher">
+            <img
+              src="./static/images/united-kingdom-flag.png"
+              alt="English"
+              class="flag"
+              onclick="setLanguage('en')"
+            />
+            <img
+              src="./static/images/georgia-flag.png"
+              alt="ქართული"
+              class="flag"
+              onclick="setLanguage('ka')"
+            />
+          </div>
+          <button
+            id="theme-toggle"
+            aria-label="Toggle theme"
+            class="theme-toggle"
+          >
+            <span id="theme-icon">🌙</span>
+          </button>
         </div>
       </div>
     </header>
@@ -47,10 +69,8 @@
         </div>
       </section>
 
-      <h1 class="main-title">Tech Has No Gender- Just Great Minds</h1>
-
       <section id="stories">
-        <h2>She Coded The Future As If It Were History</h2>
+        <h2>Digital Goddesses</h2>
         <div class="stories">
           <div class="card">
             <img src="./static/images/ada-lovelace.jpg" alt="ada-lovelace" />
@@ -72,7 +92,9 @@
               in her honor.
             </p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Ada_Lovelace">See more...</a>
+              <a href="https://en.wikipedia.org/wiki/Ada_Lovelace"
+                >See more...</a
+              >
             </button>
           </div>
 
@@ -101,7 +123,9 @@
               revolutionized coding.
             </p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Grace_Hopper">See more...</a>
+              <a href="https://en.wikipedia.org/wiki/Grace_Hopper"
+                >See more...</a
+              >
             </button>
           </div>
 
@@ -127,215 +151,284 @@
               and women of color in tech.
             </p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Annie_Easley">See more...</a>
+              <a href="https://en.wikipedia.org/wiki/Annie_Easley"
+                >See more...</a
+              >
             </button>
           </div>
-            
-            
+
           <div class="card">
-            <img src="./static/images/katherine johnson.jpg" alt="katherine johnson" />
+            <img
+              src="./static/images/katherine johnson.jpg"
+              alt="katherine johnson"
+            />
             <h3>katherine johnson (1918–2020)</h3>
             <p>Contribution: Trajectory Calculations for Space Missions</p>
             <ul>
               <li>
-                She calculated the trajectory for Alan Shepard’s 1961 Freedom 7 mission, which was America’s first human spaceflight.
+                She calculated the trajectory for Alan Shepard’s 1961 Freedom 7
+                mission, which was America’s first human spaceflight.
               </li>
               <li>
-               For the Friendship 7 mission, astronaut John Glenn personally asked NASA to “get the girl” (Katherine) to verify the computer's orbital calculations by hand before he would fly.
+                For the Friendship 7 mission, astronaut John Glenn personally
+                asked NASA to “get the girl” (Katherine) to verify the
+                computer's orbital calculations by hand before he would fly.
               </li>
             </ul>
             <p>
-              🚀 <span>Legacy:</span> She made space travel safer and more accurate through precise calculations and Her work proved that Black women could not only contribute to science — they could lead it.
+              🚀 <span>Legacy:</span> She made space travel safer and more
+              accurate through precise calculations and Her work proved that
+              Black women could not only contribute to science — they could lead
+              it.
             </p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Katherine_Johnson">See more...</a>
+              <a href="https://en.wikipedia.org/wiki/Katherine_Johnson"
+                >See more...</a
+              >
             </button>
           </div>
 
-
           <div class="card">
-            <img src="./static/images/Hedy_Lamarr_by_CLARENCE_BULL_1939_color.webp" alt="Hedy-Lamarr" />
+            <img
+              src="./static/images/Hedy_Lamarr_by_CLARENCE_BULL_1939_color.webp"
+              alt="Hedy-Lamarr"
+            />
             <h3>Hedy Lamarr (1914–2000)</h3>
             <p>Contribution: Frequency-Hopping Spread Spectrum</p>
             <ul>
               <li>
-                During World War II, Hedy co-invented a “frequency-hopping” communication system with composer George Antheil in 1941.
+                During World War II, Hedy co-invented a “frequency-hopping”
+                communication system with composer George Antheil in 1941.
               </li>
               <li>
-               The idea: If radio signals rapidly hop between frequencies, enemies can’t easily jam or intercept them.
+                The idea: If radio signals rapidly hop between frequencies,
+                enemies can’t easily jam or intercept them.
               </li>
             </ul>
             <p>
-              🚀 <span>Legacy:</span> Mother of Modern Wireless: 📶 Wi-Fi,📱 Bluetooth🛰️, GPS📡, Mobile communications.
+              🚀 <span>Legacy:</span> Mother of Modern Wireless: 📶 Wi-Fi,📱
+              Bluetooth🛰️, GPS📡, Mobile communications.
             </p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Hedy_Lamarr">See more...</a>
+              <a href="https://en.wikipedia.org/wiki/Hedy_Lamarr"
+                >See more...</a
+              >
             </button>
           </div>
-
 
           <div class="card">
             <img src="./static/images/Hamilton.webp" alt=" Margaret Hamilton" />
-            <h3>Margaret Hamilton (1995)</h3>
+            <h3>Margaret Hamilton (1936)</h3>
             <p>Contribution: Lead Software Engineer for Apollo Missions</p>
             <ul>
               <li>
-                Margaret was the Director of Software Engineering at MIT Instrumentation Lab, which worked with NASA.
+                Margaret was the Director of Software Engineering at MIT
+                Instrumentation Lab, which worked with NASA.
               </li>
               <li>
-               She led the team that developed the onboard flight software for the Apollo space program — including Apollo 11, the first mission to land on the Moon in 1969.
+                She led the team that developed the onboard flight software for
+                the Apollo space program — including Apollo 11, the first
+                mission to land on the Moon in 1969.
               </li>
             </ul>
-            <p>
-              🚀 <span>Legacy:</span>  Inventor of Software Engineering.
-            </p>
+            <p>🚀 <span>Legacy:</span> Inventor of Software Engineering.</p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)">See more...</a>
+              <a
+                href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+                >See more...</a
+              >
             </button>
           </div>
-        </div>
-      </section>
 
-      <section id="stories">
-        <h2>The Future Is Female - and She's In Tech</h2>
-        <div class="stories">
           <div class="card">
-            <img src="./static/images/sherly sandberg.jfif" alt="sherly sandberg" />
+            <img
+              src="./static/images/sheryl sandberg.jpg"
+              alt="sherly sandberg"
+            />
             <h3>Sheryl Kara Sandberg (1969)</h3>
             <p>Contribution: COO of Facebook / Meta.</p>
             <ul>
               <li>
-                Transformed Facebook from a fast-growing startup into a profitable global business.
+                Transformed Facebook from a fast-growing startup into a
+                profitable global business.
               </li>
               <li>
-                Developed and scaled the advertising model that made Facebook one of the biggest digital ad platforms.
+                Developed and scaled the advertising model that made Facebook
+                one of the biggest digital ad platforms.
               </li>
-              <li>Built Facebook’s business operations, HR, sales, and marketing, helping the company go public in 2012.</li>
+              <li>
+                Built Facebook’s business operations, HR, sales, and marketing,
+                helping the company go public in 2012.
+              </li>
             </ul>
-            <p>
-              🧠 <span>Legacy:</span> Tech Leadership at Facebook (Meta)
-            </p>
+            <p>🧠 <span>Legacy:</span> Tech Leadership at Facebook (Meta)</p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Sheryl_Sandberg">See more...</a>
+              <a href="https://en.wikipedia.org/wiki/Sheryl_Sandberg"
+                >See more...</a
+              >
             </button>
           </div>
 
           <div class="card">
             <img src="./static/images/reshma sujani.jpg" alt="Grace-Hopper" />
             <h3>Reshma Saujani (1975)</h3>
-            <p>Contribution: Founder of Girls Who Code </p>
+            <p>Contribution: Founder of Girls Who Code</p>
 
             <ul>
               <li>
-                Created the nonprofit Girls Who Code to inspire, educate, and equip young girls with computing skills.
+                Created the nonprofit Girls Who Code to inspire, educate, and
+                equip young girls with computing skills.
               </li>
               <li>
-               The program has reached over 500,000 girls globally, especially focusing on underrepresented communities.
+                The program has reached over 500,000 girls globally, especially
+                focusing on underrepresented communities.
               </li>
               <li>
-                Helped dramatically increase the number of young women entering computer science and tech careers.  
+                Helped dramatically increase the number of young women entering
+                computer science and tech careers.
               </li>
             </ul>
 
-            <p>
-              🛠 <span>Legacy:</span>Impact on Tech & Education
-            </p>
+            <p>🛠 <span>Legacy:</span>Impact on Tech & Education</p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Reshma_Saujani">See more...</a>
+              <a href="https://en.wikipedia.org/wiki/Reshma_Saujani"
+                >See more...</a
+              >
             </button>
           </div>
 
           <div class="card">
             <img src="./static/images/fei-fei-li.jpg" alt="fei-fei-li" />
             <h3>Fei-Fei-li (1976)</h3>
-            <p>Contribution: Creation of ImageNet </p>
+            <p>Contribution: Creation of ImageNet</p>
             <ul>
               <li>
-                Initiated the ImageNet project in 2006, building a massive, labeled image dataset of over 14 million images spanning thousands of object categories.
+                Initiated the ImageNet project in 2006, building a massive,
+                labeled image dataset of over 14 million images spanning
+                thousands of object categories.
               </li>
               <li>
-                This dataset and its annual ImageNet Challenge were pivotal in catalyzing the deep learning revolution—most notably influencing breakthroughs like AlexNet in 2012 .
+                This dataset and its annual ImageNet Challenge were pivotal in
+                catalyzing the deep learning revolution—most notably influencing
+                breakthroughs like AlexNet in 2012 .
               </li>
               <li>
-                Joined Stanford in 2009, directed the Stanford AI Lab (2013–2018), and co‑founded the Human‑Centered AI Institute (HAI) in 2019.
+                Joined Stanford in 2009, directed the Stanford AI Lab
+                (2013–2018), and co‑founded the Human‑Centered AI Institute
+                (HAI) in 2019.
               </li>
             </ul>
             <p>
               🚀 <span>Legacy:</span> Pioneering AI and Computer Vision Research
             </p>
             <button>
-              <a href="https://www.google.com/search?sa=X&sca_esv=287fb7c950b78cc4&sxsrf=AE3TifNV2h6q3KVECWepFVdCScLqmRrIIQ:1751740720756&q=fei-fei+li+age&stick=H4sIAAAAAAAAAOPgE-LSz9U3sMzONa-q0hLNTrbSL0jNL8hJBVJFxfl5VonpqYtY-dJSM3WBWCEnUwEoAAB0RtEuNgAAAA&ved=2ahUKEwj3w5jbrqaOAxVjB9sEHWs4D_sQ18AJegQIKxAB&biw=1749&bih=866&dpr=1.1">See more...</a>
+              <a
+                href="https://www.google.com/search?sa=X&sca_esv=287fb7c950b78cc4&sxsrf=AE3TifNV2h6q3KVECWepFVdCScLqmRrIIQ:1751740720756&q=fei-fei+li+age&stick=H4sIAAAAAAAAAOPgE-LSz9U3sMzONa-q0hLNTrbSL0jNL8hJBVJFxfl5VonpqYtY-dJSM3WBWCEnUwEoAAB0RtEuNgAAAA&ved=2ahUKEwj3w5jbrqaOAxVjB9sEHWs4D_sQ18AJegQIKxAB&biw=1749&bih=866&dpr=1.1"
+                >See more...</a
+              >
             </button>
           </div>
-            
-            
+
           <div class="card">
-            <img src="./static/images/Parisa Tabriz.jpg" alt="katherine johnson" />
+            <img src="./static/images/Parisa Tabriz.jpg" alt="Parisa_Tabriz" />
             <h3>Parisa Tabriz (1983)</h3>
-            <p>Contribution: Parisa Tabriz is a prominent Iranian-American computer security expert and technology leader.</p>
+            <p>
+              Contribution: Parisa Tabriz is a prominent Iranian-American
+              computer security expert and technology leader.
+            </p>
             <ul>
               <li>
-                Google Chrome Leadership: Parisa Tabriz serves as the Vice President and General Manager of Google Chrome, overseeing the development and security of one of the world's most widely used web browsers.
+                Google Chrome Leadership: Parisa Tabriz serves as the Vice
+                President and General Manager of Google Chrome, overseeing the
+                development and security of one of the world's most widely used
+                web browsers.
               </li>
               <li>
-                Project Zero: She manages Project Zero, Google's elite team dedicated to identifying and addressing zero-day vulnerabilities, thereby improving the overall security of the internet. 
+                Project Zero: She manages Project Zero, Google's elite team
+                dedicated to identifying and addressing zero-day
+                vulnerabilities, thereby improving the overall security of the
+                internet.
               </li>
             </ul>
             <p>
-              🚀 <span>Legacy:</span> Affectionately known as Google's "Security Princess," she has significantly influenced the cybersecurity landscape through her leadership, advocacy, and innovative approach to security.
+              🚀 <span>Legacy:</span> Affectionately known as Google's "Security
+              Princess," she has significantly influenced the cybersecurity
+              landscape through her leadership, advocacy, and innovative
+              approach to security.
             </p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Parisa_Tabriz">See more...</a>
+              <a href="https://en.wikipedia.org/wiki/Parisa_Tabriz"
+                >See more...</a
+              >
             </button>
           </div>
 
-
           <div class="card">
-            <img src="./static/images/Kimberly_Bryant.jpg" alt="Hedy-Lamarr" />
+            <img
+              src="./static/images/Kimberly_Bryant.jpg"
+              alt="Kimberly_Bryant"
+            />
             <h3>Kimberly Bryant (1967)</h3>
-            <p>Contribution:  American electrical engineer and the founder of Black Girls CODE.</p>
+            <p>
+              Contribution: American electrical engineer and the founder of
+              Black Girls CODE.
+            </p>
             <ul>
               <li>
-                Biotech and Pharma Industry: Held engineering and technical leadership roles at Fortune 100 companies such as Genentech, Merck, and Pfizer for over 20 years.
+                Biotech and Pharma Industry: Held engineering and technical
+                leadership roles at Fortune 100 companies such as Genentech,
+                Merck, and Pfizer for over 20 years.
               </li>
               <li>
-               Founder of Black Girls CODE: Established in 2011 to provide technology education to girls of color, aiming to bridge the digital divide and increase diversity in tech.
+                Founder of Black Girls CODE: Established in 2011 to provide
+                technology education to girls of color, aiming to bridge the
+                digital divide and increase diversity in tech.
               </li>
             </ul>
             <p>
-              🚀 <span>Legacy:</span>  Her work has significantly impacted the representation of Black women in STEM fields.
+              🚀 <span>Legacy:</span> Her work has significantly impacted the
+              representation of Black women in STEM fields.
             </p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Kimberly_Bryant_(technologist)">See more...</a>
+              <a
+                href="https://en.wikipedia.org/wiki/Kimberly_Bryant_(technologist)"
+                >See more...</a
+              >
             </button>
           </div>
 
-
           <div class="card">
-            <img src="./static/images/tiera.jfif" alt="Tiera Guinn Fletcher" />
+            <img
+              src="./static/images/tiera-fletcher.png"
+              alt="Tiera Guinn Fletcher"
+            />
             <h3>Tiera Guinn Fletcher (1995)</h3>
-            <p>Contribution: Tiera Guinn Fletcher is an American aerospace engineer recognized for her significant contributions to NASA's Space Launch System .</p>
+            <p>
+              Contribution: Tiera Guinn Fletcher is an American aerospace
+              engineer recognized for her significant contributions to NASA's
+              Space Launch System .
+            </p>
             <ul>
+              <li>2017 Good Housekeeping's Awesome Woman Award.</li>
               <li>
-                2017 Good Housekeeping's Awesome Woman Award.
-              </li>
-              <li>
-                Albert G. Hill Prize at MIT for academic excellence and contributions to campus diversity.
+                Albert G. Hill Prize at MIT for academic excellence and
+                contributions to campus diversity.
               </li>
             </ul>
             <p>
-              🚀 <span>Legacy:</span>  Born in the greater Atlanta area, Fletcher developed an early interest in aerospace engineering at age 11 through a Lockheed Martin program.
+              🚀 <span>Legacy:</span> Born in the greater Atlanta area, Fletcher
+              developed an early interest in aerospace engineering at age 11
+              through a Lockheed Martin program.
             </p>
             <button>
-              <a href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)">See more...</a>
+              <a
+                href="https://en.wikipedia.org/wiki/Margaret_Hamilton_(software_engineer)"
+                >See more...</a
+              >
             </button>
           </div>
         </div>
       </section>
-
-
-
-
 
       <section id="resources">
         <h2>Explore Resources</h2>
@@ -471,5 +564,7 @@
         <span>© 2025</span> Hello, World. Meet Her. All rights reserved.👯‍♀️👑💜
       </p>
     </footer>
+    <script src="./static/script/script.js"></script>
+    <script src="./static/script/theme.js"></script>
   </body>
 </html>
