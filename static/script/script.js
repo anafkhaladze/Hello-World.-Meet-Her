@@ -168,53 +168,6 @@ const translations = {
         button: "See more...",
       },
     ],
-
-    resourcesTitle: "Explore Resources",
-
-    resources: {
-      heading: "Learn to Code",
-      description: "Free platforms and tutorials to kickstart your journey.",
-      platforms: [
-        {
-          name: "freeCodeCamp",
-          url: "https://www.freecodecamp.org/",
-          why: "Entirely free, project-based learning.",
-          covers: "HTML, CSS, JavaScript, Python, Git, APIs, and more.",
-          bonus: "You earn certifications as you complete modules.",
-        },
-        {
-          name: "CS50 by Harvard (via edX)",
-          url: "https://cs50.harvard.edu/x/",
-          why: "Harvard's famous introduction to computer science—completely free.",
-          covers:
-            "Programming fundamentals using C, Python, and web development basics.",
-          bonus: "High-quality lectures and problem sets.",
-        },
-        {
-          name: "The Odin Project",
-          url: "https://www.theodinproject.com/",
-          why: "Full web development curriculum, no signup required.",
-          covers: "HTML, CSS, JavaScript, Git, Node.js, and more.",
-          bonus: "Encourages real projects and open-source collaboration.",
-        },
-        {
-          name: "Khan Academy – Computer Programming",
-          url: "https://www.khanacademy.org/computing/computer-programming",
-          why: "Beginner-friendly, with visual feedback and interactive lessons.",
-          covers: "JavaScript, HTML/CSS, SQL, and basic algorithms.",
-          bonus: "Excellent for younger learners or visual thinkers.",
-        },
-        {
-          name: "W3Schools",
-          url: "https://www.w3schools.com/",
-          why: "Quick references and try-it-yourself examples.",
-          covers: "HTML, CSS, JavaScript, Python, and SQL.",
-          bonus: "You can instantly test and see code output.",
-        },
-      ],
-
-      backBtn: "Back To Home Page",
-    },
   },
 
   ka: {

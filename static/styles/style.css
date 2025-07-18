@@ -16,6 +16,11 @@
   --see-more-btn: #a15dcb;
   --resources-a: #c8a2c8;
   --footer-bg: #f0eef7;
+  --color-pink: #d474d4;
+  --card-bg: #f9f9f9;
+  --card-border: #cccccc;
+  --card-hover-bg: #e6e6e6;
+  --card-text-dark: #333333;
 }
 
 /* Dark theme overrides */
@@ -33,6 +38,11 @@ body.dark-theme {
   --see-more-btn: #c38ded;
   --resources-a: #debdfd;
   --footer-bg: #1c1524;
+  --color-pink: #a349a3;
+  --card-bg: #2a1f2d;
+  --card-border: #999999;
+  --card-hover-bg: #bfbfbf;
+  --card-text-dark: #ffff; 
 }
 
 .theme-toggle {
@@ -365,6 +375,61 @@ footer span {
   line-height: 20px;
 }
 
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+h2 {
+  text-align: center;
+  color: var(--color-pink);
+  margin-bottom: 2rem;
+}
+
+.stereotypes-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.card-header {
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--color-pink);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-header:hover {
+  background-color: var(--card-hover-bg);
+}
+
+.toggle-icon {
+  font-size: 1.2rem;
+  color: var(--color-pink);
+  transition: transform 0.3s ease;
+}
+
+.card-content {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 1rem;
+  color: var(--card-text-dark);
+  transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.stereotypes-card.active .card-content {
+  max-height: 200px;
+  padding: 1rem;
+}
+
 @media (max-width: 768px) {
   /* Header */
   .inner-header {
@@ -377,7 +442,9 @@ footer span {
   }
 
   .cta-buttons {
+    display: flex;
     justify-content: space-evenly;
+    /* gap: 8px; */
     align-items: center;
   }
 
@@ -385,6 +452,24 @@ footer span {
     font-size: 16px;
     margin: 5px 0;
     padding: 8px 16px;
+  }
+
+  .lang-switcher {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .flag {
+    width: 24px;
+    height: 24px;
+  }
+
+  .theme-toggle {
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
   }
 
   /* Mission Section */
@@ -441,54 +526,38 @@ footer span {
   footer p {
     font-size: 13px;
   }
-}
 
-/* ipad pro */
-@media (max-width: 1024px) {
-  .inner-header {
-    gap: 10px;
+  .container {
+    padding: 20px;
   }
 
-  .mission {
-    flex-direction: column;
-    align-items: center;
+  h2 {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
   }
 
-  .mission-text {
-    margin: 40px 20px;
+  .stereotypes-card {
+    font-size: 14px;
+    margin-bottom: 1rem;
   }
 
-  .mission-img {
-    width: 80%;
-    height: auto;
+  .card-header {
+    padding: 0.8rem;
+    font-size: 15px;
+    gap: 0.4rem;
   }
 
-  .stories {
-    grid-template-columns: 1fr 1fr;
+  .toggle-icon {
+    font-size: 1rem;
   }
 
-  .card img {
-    width: 100%;
-    height: auto;
+  .card-content {
+    font-size: 14px;
+    padding: 0 0.8rem;
   }
 
-  .resources {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .resources-card {
-    width: 90%;
-    margin: 20px 0;
-  }
-
-  .footer-logo {
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-text h5 {
-    font-size: 26px;
+  .stereotypes-card.active .card-content {
+    padding: 0.8rem;
   }
 }
